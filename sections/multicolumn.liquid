@@ -57,6 +57,7 @@
 
           <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}" {{ block.shopify_attributes }}>
             <div class="multicolumn-card content-container">
+              {% if block.settings.link %}<a href="{{ block.settings.link }}" class="ywm">{% endif %}
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}
@@ -76,6 +77,7 @@
                   </div>
                 </div>
               {%- endif -%}
+            {% if block.settings.link %}</a>{% endif %}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
                   <h3>{{ block.settings.title | escape }}</h3>
