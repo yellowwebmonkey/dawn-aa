@@ -7,7 +7,29 @@
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+ 
+    <link rel="preconnect" href="https://sdk.qikify.com" crossorigin>
+    <link rel="preconnect" href="https://connect.facebook.net" crossorigin>
+    <link rel="preconnect" href="https://code.jquery.com" crossorigin>    
 
+    <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=UA-108384690-2" as="script">
+	<link rel="preload" href="https://www.google-analytics.com/analytics.js" as="script">
+	<link rel="preload" href="https://sdk.qikify.com/tmenu/async.js" as="script">
+    
+    <link rel="preload" href="{{ 'ywm-custom.css' | asset_url }}" as="style" >
+    <link rel="preload" href="https://code.jquery.com/jquery-3.0.0.min.js" as="script" >    
+    {% if request.page_type == 'product' %}
+		<link rel="preload" href="{{ product.featured_media | img_url }}" as="image">
+        <link rel="preload" href="{{ 'base.css' | asset_url }}" as="style" >
+        <link rel="preload" href="{{ 'section-main-product.css' | asset_url }}" as="style" >  
+    {% elsif request.page_type == 'index' %}    
+    	<link rel="preload" href="{{ 'collage.css' | asset_url }}" as="style" >
+        <link rel="preload" href="{{ 'base.css' | asset_url }}" as="style" >
+	{% endif %}
+    
+    
+<script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=JnMhcx"></script>
+    
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
@@ -16,18 +38,10 @@
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
 
-    <title>
-      {{ page_title }}
-      {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
-      {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
-      {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
-    </title>
-
-    {% if page_description %}
-      <meta name="description" content="{{ page_description | escape }}">
-    {% endif %}
-
-    {% render 'meta-tags' %}
+    {%- render 'ywm-seo-title' -%}
+    {%- render 'ywm-seo-description' -%}
+    
+     {% render 'meta-tags' %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     {{ content_for_header }}
@@ -229,15 +243,46 @@
       <link rel="stylesheet" href="{{ 'component-predictive-search.css' | asset_url }}" media="print" onload="this.media='all'">
     {%- endif -%}
 
-    <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
-    if (Shopify.designMode) {
-      document.documentElement.classList.add('shopify-design-mode');
-    }
-    </script>
-  </head>
+    <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
+    
+<!--Gem_Page_Header_Script-->
+{% include 'gem-app-header-scripts' %}
+<!--End_Gem_Page_Header_Script-->
+    
+  
+<!--begin-boost-pfs-filter-css-->
+  
+<!--end-boost-pfs-filter-css-->
+     <!-- YELLOWWEBMONKEY --> 
+    {{ 'ywm-custom.css' | asset_url | stylesheet_tag }}
+  {% if request.path contains 'faq' %}
+     {{ 'faq.css' | asset_url | stylesheet_tag }}
+ {% endif %}
 
-  <body class="gradient">
-    <a class="skip-to-content-link button visually-hidden" href="#MainContent">
+<!-- Global site tag (gtag.js) - Google Ads: 10904120691 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10904120691"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+ 
+  gtag('config', 'AW-10904120691');
+</script>  
+<!-- end of gtag ---->
+  
+
+  {% render 'qikify-apps' %}
+
+ <!--begin-boost-pfs-filter-css-->
+   {% render 'boost-pfs-style' %}
+ <!--end-boost-pfs-filter-css-->
+
+ 
+</head>
+
+  <body class="gradient {{ request.page_type }}" id="{{ page_title | handleize }}">
+    <img alt="background image" width="99999" height="99999" alt="Quality Apparel made in the USA" style="pointer-events: none; position: absolute; top: 0; left: 0; width: 99vw; height: 99vh; max-width: 99vw; max-height: 99vh;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI5OTk5OXB4IiBoZWlnaHQ9Ijk5OTk5cHgiIHZpZXdCb3g9IjAgMCA5OTk5OSA5OTk5OSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZyBzdHJva2U9Im5vbmUiIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijk5OTk5IiBoZWlnaHQ9Ijk5OTk5Ij48L3JlY3Q+IDwvZz4gPC9zdmc+">
+   <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
 
@@ -246,6 +291,7 @@
     {%- endif -%}
 
     {% section 'announcement-bar' %}
+    {% section "ywm-promotion-bar" %}
     {% section 'header' %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
@@ -290,5 +336,62 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  </body>
+    
+    <!-- Start of HubSpot Embed Code --> 
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5092159.js"></script> 
+  <!-- End of HubSpot Embed Code -->
+
+ {% if template contains "product" and 1==2 %}{% render "product-personalizer" %}{% endif %}
+
+
+    <!--Gem_Page_Footer_Script-->
+{% include 'gem-app-footer-scripts' %}
+<!--End_Gem_Page_Footer_Script -->
+
+<script src="https://a.klaviyo.com/media/js/onsite/onsite.js"></script>
+<script>
+    var klaviyo = klaviyo || [];
+    klaviyo.init({
+      account: "JnMhcx",
+      platform: "shopify",
+      include_on_tags: 'AAM Consumer'
+    });
+    klaviyo.enable("backinstock",{ 
+    trigger: {
+      product_page_text: "Notify Me When Available",
+      product_page_class: "btn",
+      product_page_text_align: "center",
+      product_page_margin: "0px",
+      replace_anchor: false
+    },
+    modal: {
+     headline: "{product_name}",
+     body_content: "Register to receive a notification when this item comes back in stock.",
+     email_field_label: "Email",
+     button_label: "Notify me when available",
+     subscription_success_label: "You're in! We'll let you know when it's back.",
+     footer_content: '',
+     additional_styles: "@import url('https://fonts.googleapis.com/css?family=Helvetica+Neue');",
+     drop_background_color: "#000",
+     background_color: "#fff",
+     text_color: "#222",
+     button_text_color: "#fff",
+     button_background_color: "#439fdb",
+     close_button_color: "#ccc",
+     error_background_color: "#fcd6d7",
+     error_text_color: "#C72E2F",
+     success_background_color: "#d3efcd",
+     success_text_color: "#1B9500"
+    }
+  });
+</script>
+
+  
+<!--begin-boost-pfs-js-->
+  {% render 'boost-pfs' %}
+<!--end-boost-pfs-js-->
+</body>
 </html>
+
+{{ 'idme-theme-style.css' | asset_url | stylesheet_tag }}
+{{ 'idme-theme-template.js' | asset_url | script_tag }}
