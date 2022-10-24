@@ -1,0 +1,54 @@
+{% if section.settings.title != blank and section.settings.title_enable == true %}
+ <div class="section-header">
+ <h2 class="section-header-- text-center">{{ section.settings.title | escape }}</h2>
+ </div>
+ {% endif %}
+ {% if section.settings.section_intro != blank %}<p class="max-600 text-center intro">{{ section.settings.section_intro | escape }}</p>{% endif %}
+
+<div class="gallery-grid row">
+ {% for block in section.blocks %} 
+ <div class="gallery-item {{ section.settings.animation }}">
+
+{% if block.settings.image != blank %}
+ {%- assign image = block.settings.image -%}
+
+<div class="ywm-photo-gallery-img">
+
+{% if block.settings.link != blank %}
+      {% if block.settings.link contains 'utm_source' %}
+            {% assign post_link = block.settings.link %}
+      {% elsif block.settings.link contains '?' %}
+          {% assign post_link = block.settings.link | append: '&utm_source=social&utm_medium=instagram&utm_campaign=recipe_grid' %}
+      {% else %}
+          {% assign post_link = block.settings.link | append: '?utm_source=social&utm_medium=instagram&utm_campaign=recipe_grid' %}
+      {% endif %}
+
+   <a href="{{ post_link }}" title="{{ block.settings.caption | escape }}"> 
+   {% else %}
+   <a href="{{ image.src | img_url: 'master' }}" data-fancybox="gallery" title="{{ block.settings.caption }}">
+   {% endif %} 
+ <img src="{{ image.src | img_url: section.settings.image_size_choice, format: 'pjpg' }}" 
+ alt="{{ block.settings.caption | escape }}" 
+ style="{{ img_style }}" />
+   </a> 
+ <noscript>{{ image | img_url: '640x640' | img_tag: block.settings.image.alt }}</noscript>
+
+</div>
+ {% else %}
+ {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+ {% endif %}
+
+<div class="ywm-content-block-content width-{{section.settings.image_width}}">
+ {% if block.settings.caption != blank and section.settings.captions_enable == true %}
+ <p class="">
+ {% if block.settings.link != blank %}<a href="{{ block.settings.link }}">{% endif %} 
+ {{ block.settings.caption | escape }}
+ {% if block.settings.link != blank %}</a>{% endif %} 
+ </p>
+ {% endif %}
+ </div>
+ </div>
+ {% endfor %}
+ </div>
+ 
+{% if section.settings.section_outro != blank %}<p class="max-600 text-center">{{ section.settings.section_outro | escape }}</p><br/>{% endif %}

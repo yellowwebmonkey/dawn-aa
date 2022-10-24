@@ -1,0 +1,25 @@
+{%- capture seo_title -%}
+{%- if request.page_type == 'search' and search.terms != blank -%}
+{{ search.terms | split: ' AND ' | last | split: 'product_type:' | last }} - {{ shop.name }}
+{% elsif request.path contains 'apps' %}
+{{ shop.name }} {{ request.path | replace: '-',' ' | remove: '/apps/' | replace: '/' | capitalize }}
+{% else %}
+{% if request.page_type == 'article' %}{{ blog.title }} -{% endif %}
+{{ page_title }}
+{%- if current_tags -%}
+{%- assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags -}}
+{%- endif -%}
+{%- if current_page != 1 -%}
+&ndash; {{ 'general.meta.page' | t: page: current_page }}
+{%- endif -%}
+{%- if template == 'password' -%}
+{{ shop.name }}
+{%- else -%}
+{%- unless page_title contains shop.name or page_title contains 'Authentically American' -%}
+&ndash; {{ shop.name }}
+{%- endunless -%}
+{%- endif -%}
+{% endif %}
+{%- endcapture -%}
+{% if seo_title.size > 70 %}{% assign seo_title = seo_title | truncate: 70 %}{% endif %}
+<title>{{ seo_title }}</title>

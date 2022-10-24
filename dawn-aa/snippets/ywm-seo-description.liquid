@@ -1,0 +1,27 @@
+{% assign list_collection_meta = 'Authentically American creates the highest quality American-made apparel you can find. Every item we sell is made in the United States, no exceptions.' %}
+{% assign all_products_meta = 'View the highest quality American-made apparel you can find. Every item we sell is made in the United States, no exceptions, creating a higher quality of life for our neighbors and communities.' %}
+
+{%- if current_page != 1 -%}
+{% capture page_append %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endcapture %}
+{% else %}
+{% assign page_append = '' %}
+{%- endif -%}
+
+{% if request.path contains 'collections/all' and template != 'list-collections' and current_tags == blank %}
+	<meta name="description" content="{{ all_products_meta | escape }}{{ page_append }}" />
+{% elsif page_description and template == 'list-collections' %}
+	<meta name="description" content="{{ list_collection_meta }}{{ page_append }}">
+{% elsif template == 'collection' and  collection.description == blank %}
+	<meta name="description" content="View our {{ collection.title }}. Every item we sell is made in the United States, no exceptions.">
+{% elsif current_tags and request.page_type == 'blog' %}
+    {% if current_tags %}
+    	{% if request.path contains 'news' %}
+    		{% assign blog_type = 'News Blog Posts' %}
+    	{% endif %}
+    {% endif %}
+	<meta name="description" content="{{ shop.name }} {{ blog_type }} tagged {{ current_tags | join: ', ' }}{{ page_append }}" />
+{% elsif current_tags and template == 'collection' %}
+	<meta name="description" content="{{ shop.name }} {{ current_tags | join: ', ' }} {{ collection.title }}{{ page_append }}" />
+{% else %}
+	<meta name="description" content="{{ page_description | escape }}{{ page_append }}">
+{% endif %}

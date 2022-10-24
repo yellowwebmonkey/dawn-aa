@@ -1,0 +1,40 @@
+{% assign logo = 'logo.png' | asset_img_url: '300x' %}
+{% assign banner = 'banner.jpg' | asset_img_url: '1200x' %}
+{% assign facebook_handle = 'AuthenticallyAmericanCo' %}
+{% assign instagram_handle = 'authentically_american' %}
+{% assign linkedin_handle = 'authentically-american' 
+{% assign pinterest_handle = 'AuthenticallyUS' %}
+{% assign twitter_handle = 'Auth_American' %}
+{% assign youtube_handle = 'channel/UC6jMed1mFeNLWaMXS5H6NBw' %}
+
+{% capture social_string %}
+{% if facebook_handle != blank %}"https://www.facebook.com/{{ facebook_handle}}",{% endif %}{% if instagram_handle != blank %}"https://www.instagram.com/{{ instagram_handle}}",{% endif %}{% if linkedin_handle != blank %}"https://www.linkedin.com/company/{{ linkedin_handle}}",{% endif %}{% if pinterest_handle != blank %}"https://www.pinterest.com/company/{{ pinterest_handle}}",{% endif %}{% if twitter_handle != blank %}"https://twitter.com/{{ twitter_handle}}",{% endif %}{% if youtube_handle != blank %}"https://www.youtube.com/{{ youtube_handle}}",{% endif %}
+{% endcapture %} 
+
+{% assign total_length = social_string | size %}
+{% assign length = total_length | minus: 2 %}
+{% assign social_string = social_string | slice:0,length %}
+<div>
+<script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@type": "Organization",
+"name": "{{ shop.name }}",
+"url": "{{ shop.url }}",
+"description": "{{ shop.description | escape}}",
+"sameAs": [{{ social_string }}],
+"address": {
+"@type": "PostalAddress",
+"addressRegion": "{{ shop.address.province }}",
+"postalCode": "{{ shop.address.zip }}",
+"addressCountry": "{{ shop.address.country }}",
+"addressLocality": "{{ shop.address.city }}",
+"streetAddress": "{{ shop.address.street }}"
+},
+"email": "{{ shop.email }}",
+"image": "{{ banner }}",
+"logo": "{{ logo }}",
+"telephone": "{{ shop.phone }}"
+}
+</script>
+</div>

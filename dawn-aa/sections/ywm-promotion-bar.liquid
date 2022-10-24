@@ -1,0 +1,95 @@
+{% assign default_color = '#FFA731' %} 
+{% assign bar_opacity = '0.87' %}
+{% assign hex2rgb_hex = section.settings.background_color %}
+{% include 'ywm-hex2rgb' %}
+
+
+{% if section.settings.promo_enable != false %} 
+ <div class="ywm-promotion {{ section.settings.animation }}" style="background: rgb({{ hex2rgb_r }}, {{ hex2rgb_g }}, {{ hex2rgb_b }}, 0.{{ section.settings.opacity }});color:{{ section.settings.font_color }};">
+ {% if section.settings.link != blank %}<a href="{{section.settings.link | escape }}" style="color:{{ section.settings.font_color }};">{% endif %}
+ {{ section.settings.message }}
+ {% if section.settings.link != blank %}</a>{% endif %}
+ </div>
+{% endif %}
+
+ 
+
+{% schema %}
+ {
+ "name": "YWM Promo Bar",
+ "class": "index-section",
+ "tag": "section",
+ "settings": [
+ {
+ "type": "checkbox",
+ "id": "promo_enable",
+ "label": "Show Promo",
+ "default": false
+ },
+ {
+ "type": "text",
+ "id": "message",
+ "label": "Message",
+ "default": "Title for Block Section"
+ },
+ {
+ "type": "url",
+ "id": "link",
+ "label": "Link"
+ }, 
+ {
+ "type": "color",
+ "id": "background_color",
+ "label": "Background Color",
+ "default": "#FFA731"
+ }, 
+ {
+ "type": "color",
+ "id": "font_color",
+ "label": "Font Color",
+ "default": "#fff"
+ }, 
+ {
+ "type": "range",
+ "id": "opacity",
+ "min": 0,
+ "max": 95,
+ "step": 5,
+ "unit": "%",
+ "label": "Bar Opacity",
+ "default": 85
+ },
+ {
+ "type": "select",
+ "id": "animation",
+ "options": [
+ { "value": "no_animation", "label": "None"},
+ { "value": "slideUp", "label": "Slide Up"},
+ { "value": "slideDown", "label": "Slide Down"},
+ { "value": "slideLeft", "label": "Slide Left"},
+ { "value": "slideRight", "label": "Slide Right"},
+ { "value": "slideExpandUp", "label": "Slide Expand Up"},
+ { "value": "expandUp", "label": "Expand Up"},
+ { "value": "fadeIn", "label": "Fade In"},
+ { "value": "expandOpen", "label": "Expand Open"},
+ { "value": "bigEntrance", "label": "Big Entrance"},
+ { "value": "hatch", "label": "Hatch"},
+ { "value": "bounce", "label": "Bounce"},
+ { "value": "pulse", "label": "Pulse"},
+ { "value": "float", "label": "Float"},
+ { "value": "tossing", "label": "Tossing"},
+ { "value": "pullUp", "label": "Pull Up"},
+ { "value": "pullDown", "label": "Pull Down"},
+ { "value": "stretchLeft", "label": "Stretch Left"},
+ { "value": "stretchRight", "label": "Stretch Right"}
+ ],
+ "label": "Animation Type"
+ },
+ {
+ "type": "text",
+ "id": "css_class",
+ "label": "CSS Class for Section"
+ }
+ ]
+ }
+{% endschema %}
