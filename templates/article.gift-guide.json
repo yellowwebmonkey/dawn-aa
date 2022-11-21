@@ -123,6 +123,7 @@
     },
     "70669a8f-33b4-4f7c-9cd8-be54836b823c": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "template--16624978460913__70669a8f-33b4-4f7c-9cd8-be54836b823c-166862041987ac1595-0": {
           "type": "heading",
@@ -167,12 +168,58 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "2c4f7be2-9189-4d2d-9e64-bb02e87b6d72": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16624990257393__2c4f7be2-9189-4d2d-9e64-bb02e87b6d72-1669072127e7153955-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--16624990257393__2c4f7be2-9189-4d2d-9e64-bb02e87b6d72-1669072127e7153955-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shop Army West Point Black Knights apparel and gear, made in the USA, for your favorite Army Football fan. Bring a smile to their face knowing you understand what it means to BEAT NAVY. <\/p><p>Whether they love to cheer the Black Knights on to victory in the stands, the office, or the gym, Authentically American has the gear they’ll love. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16624990257393__2c4f7be2-9189-4d2d-9e64-bb02e87b6d72-1669072127e7153955-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16624990257393__2c4f7be2-9189-4d2d-9e64-bb02e87b6d72-1669072127e7153955-0",
+        "template--16624990257393__2c4f7be2-9189-4d2d-9e64-bb02e87b6d72-1669072127e7153955-1",
+        "template--16624990257393__2c4f7be2-9189-4d2d-9e64-bb02e87b6d72-1669072127e7153955-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2022GiftGuideArmyFootballFan.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "da63b0f4-caf4-4985-bc47-9fc3b85d9f59",
     "5376a5d4-33bf-45cf-9106-f8d1952e929a",
-    "70669a8f-33b4-4f7c-9cd8-be54836b823c"
+    "70669a8f-33b4-4f7c-9cd8-be54836b823c",
+    "2c4f7be2-9189-4d2d-9e64-bb02e87b6d72"
   ]
 }
