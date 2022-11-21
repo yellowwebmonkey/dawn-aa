@@ -32,6 +32,49 @@
       "settings": {
       }
     },
+    "da63b0f4-caf4-4985-bc47-9fc3b85d9f59": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16624978460913__da63b0f4-caf4-4985-bc47-9fc3b85d9f59-1668620419f84322f0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Authentically American Holiday Gift Guide 2022<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16624978460913__da63b0f4-caf4-4985-bc47-9fc3b85d9f59-1668620419f84322f0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Here at Authentically American, we love the holidays. What’s more American than family and friends gathering to freely celebrate the joy of the season, enjoying delicious food and giving thoughtfully hand-selected gifts to each loved one? Whether you’re searching for last minute Christmas gifts for your dedicated employees or that proud Service Academy graduate in your life, or you simply want a unique gift for the patriot or parent you love, Authentically American has something for everyone. <\/p><p>We’ve carefully curated gift ideas that are Made in the USA for all of those important people in your life.<\/p>"
+          }
+        },
+        "template--16624978460913__da63b0f4-caf4-4985-bc47-9fc3b85d9f59-1668620419f84322f0-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16624978460913__da63b0f4-caf4-4985-bc47-9fc3b85d9f59-1668620419f84322f0-0",
+        "template--16624978460913__da63b0f4-caf4-4985-bc47-9fc3b85d9f59-1668620419f84322f0-1",
+        "template--16624978460913__da63b0f4-caf4-4985-bc47-9fc3b85d9f59-1668620419f84322f0-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "5376a5d4-33bf-45cf-9106-f8d1952e929a": {
       "type": "image-with-text",
       "blocks": {
@@ -76,48 +119,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "da63b0f4-caf4-4985-bc47-9fc3b85d9f59": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16624978460913__da63b0f4-caf4-4985-bc47-9fc3b85d9f59-1668620419f84322f0-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "template--16624978460913__da63b0f4-caf4-4985-bc47-9fc3b85d9f59-1668620419f84322f0-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--16624978460913__da63b0f4-caf4-4985-bc47-9fc3b85d9f59-1668620419f84322f0-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16624978460913__da63b0f4-caf4-4985-bc47-9fc3b85d9f59-1668620419f84322f0-0",
-        "template--16624978460913__da63b0f4-caf4-4985-bc47-9fc3b85d9f59-1668620419f84322f0-1",
-        "template--16624978460913__da63b0f4-caf4-4985-bc47-9fc3b85d9f59-1668620419f84322f0-2"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "70669a8f-33b4-4f7c-9cd8-be54836b823c": {
@@ -170,8 +171,8 @@
   },
   "order": [
     "main",
-    "5376a5d4-33bf-45cf-9106-f8d1952e929a",
     "da63b0f4-caf4-4985-bc47-9fc3b85d9f59",
+    "5376a5d4-33bf-45cf-9106-f8d1952e929a",
     "70669a8f-33b4-4f7c-9cd8-be54836b823c"
   ]
 }
