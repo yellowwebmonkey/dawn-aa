@@ -260,6 +260,52 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "e272bf3e-c388-41d8-bdf6-eb498aae8a66": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16624990257393__e272bf3e-c388-41d8-bdf6-eb498aae8a66-1669072127e7153955-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--16624990257393__e272bf3e-c388-41d8-bdf6-eb498aae8a66-1669072127e7153955-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shop Air Force Academy apparel and gear, made in the USA, for that exceptional Air Force grad in your life. Give your favorite Falcons fan something they’ll truly appreciate. <\/p><p>From the office to the gym or anywhere life takes them, Authentically American has the gear Zoomies want to show pride for their Alma mater.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16624990257393__e272bf3e-c388-41d8-bdf6-eb498aae8a66-1669072127e7153955-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16624990257393__e272bf3e-c388-41d8-bdf6-eb498aae8a66-1669072127e7153955-0",
+        "template--16624990257393__e272bf3e-c388-41d8-bdf6-eb498aae8a66-1669072127e7153955-1",
+        "template--16624990257393__e272bf3e-c388-41d8-bdf6-eb498aae8a66-1669072127e7153955-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2022GiftGuideAirForceGrad.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -268,6 +314,7 @@
     "5376a5d4-33bf-45cf-9106-f8d1952e929a",
     "70669a8f-33b4-4f7c-9cd8-be54836b823c",
     "2c4f7be2-9189-4d2d-9e64-bb02e87b6d72",
-    "3fb49d55-bb6f-4cee-b1f8-d393a45829d1"
+    "3fb49d55-bb6f-4cee-b1f8-d393a45829d1",
+    "e272bf3e-c388-41d8-bdf6-eb498aae8a66"
   ]
 }
