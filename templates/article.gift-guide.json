@@ -306,6 +306,52 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "d4da5c0f-7953-4074-a5d7-457c2778e3c0": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16624990257393__d4da5c0f-7953-4074-a5d7-457c2778e3c0-1669072127e7153955-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--16624990257393__d4da5c0f-7953-4074-a5d7-457c2778e3c0-1669072127e7153955-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shop Authentically American apparel and gear for the weightlifting, cardio-loving gym rat in your life. Whether they’re one of those crazy runners or prefer to lift heavy things for fun, we’ve got a gift they’ll appreciate.<\/p><p>Check out our comfortable sweat tees, shorts, hoodies and more and get them something that will go the distance with them.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16624990257393__d4da5c0f-7953-4074-a5d7-457c2778e3c0-1669072127e7153955-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16624990257393__d4da5c0f-7953-4074-a5d7-457c2778e3c0-1669072127e7153955-0",
+        "template--16624990257393__d4da5c0f-7953-4074-a5d7-457c2778e3c0-1669072127e7153955-1",
+        "template--16624990257393__d4da5c0f-7953-4074-a5d7-457c2778e3c0-1669072127e7153955-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2022GiftGuideGymJunkie.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -315,6 +361,7 @@
     "70669a8f-33b4-4f7c-9cd8-be54836b823c",
     "2c4f7be2-9189-4d2d-9e64-bb02e87b6d72",
     "3fb49d55-bb6f-4cee-b1f8-d393a45829d1",
-    "e272bf3e-c388-41d8-bdf6-eb498aae8a66"
+    "e272bf3e-c388-41d8-bdf6-eb498aae8a66",
+    "d4da5c0f-7953-4074-a5d7-457c2778e3c0"
   ]
 }
