@@ -536,6 +536,52 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1272b74e-7618-44e4-b558-9100170e99b8": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16624990257393__1272b74e-7618-44e4-b558-9100170e99b8-1669072127e7153955-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--16624990257393__1272b74e-7618-44e4-b558-9100170e99b8-1669072127e7153955-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "template--16624990257393__1272b74e-7618-44e4-b558-9100170e99b8-1669072127e7153955-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16624990257393__1272b74e-7618-44e4-b558-9100170e99b8-1669072127e7153955-0",
+        "template--16624990257393__1272b74e-7618-44e4-b558-9100170e99b8-1669072127e7153955-1",
+        "template--16624990257393__1272b74e-7618-44e4-b558-9100170e99b8-1669072127e7153955-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2022GiftGuideFestiveDad.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -550,6 +596,7 @@
     "c5a4e941-dda4-49f6-bb84-e2fb220299df",
     "24fce509-3289-471c-ac9c-e2c0f3640c62",
     "ba4cf10e-3057-431c-be83-31a564a82a72",
-    "497a03ee-68d0-40c5-b814-70d5d6cadc5c"
+    "497a03ee-68d0-40c5-b814-70d5d6cadc5c",
+    "1272b74e-7618-44e4-b558-9100170e99b8"
   ]
 }
