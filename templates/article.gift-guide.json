@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-article",
+      "disabled": true,
       "blocks": {
         "featured_image": {
           "type": "featured_image",
@@ -18,6 +19,7 @@
         },
         "content": {
           "type": "content",
+          "disabled": true,
           "settings": {
           }
         }
@@ -35,20 +37,22 @@
       "blocks": {
         "template--16624978460913__5376a5d4-33bf-45cf-9106-f8d1952e929a-16686204192f20989d-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "heading": "Image with text",
+            "heading": "",
             "heading_size": "h1"
           }
         },
         "template--16624978460913__5376a5d4-33bf-45cf-9106-f8d1952e929a-16686204192f20989d-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Shop Army West Point apparel and gear, made in the USA, for that proud West Point grad in your life. There’s no doubt they love to Rock the Black Gold and BEAT NAVY, so get them a gift you know they’ll appreciate. <\/p><p>From the office to the gym or anywhere life takes them, Authentically American will help the Old Grad in your life enjoy the nostalgia and show love for their Alma Mater.<\/p>",
             "text_style": "body"
           }
         },
         "template--16624978460913__5376a5d4-33bf-45cf-9106-f8d1952e929a-16686204192f20989d-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": ""
@@ -61,12 +65,13 @@
         "template--16624978460913__5376a5d4-33bf-45cf-9106-f8d1952e929a-16686204192f20989d-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/2022GiftGuideArmyGrad.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "content_layout": "overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 36,
