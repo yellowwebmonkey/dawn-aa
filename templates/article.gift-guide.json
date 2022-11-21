@@ -386,9 +386,10 @@
         "template--16624990257393__c5a4e941-dda4-49f6-bb84-e2fb220299df-1669072127e7153955-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/2022GiftGuideAmericanWorker.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
+        "desktop_image_width": "small",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
