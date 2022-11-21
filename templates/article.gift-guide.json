@@ -352,6 +352,51 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "c5a4e941-dda4-49f6-bb84-e2fb220299df": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16624990257393__c5a4e941-dda4-49f6-bb84-e2fb220299df-1669072127e7153955-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--16624990257393__c5a4e941-dda4-49f6-bb84-e2fb220299df-1669072127e7153955-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shop Authentically American Business Wear, made in the USA, for the consummate professional in your life. When they care about presenting themselves well and supporting American business, get them the apparel that helps them do both. <\/p><p>From sleek polos to comfortable outerwear, Authentically American has the gifts you need for the business casual connoisseur.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16624990257393__c5a4e941-dda4-49f6-bb84-e2fb220299df-1669072127e7153955-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16624990257393__c5a4e941-dda4-49f6-bb84-e2fb220299df-1669072127e7153955-0",
+        "template--16624990257393__c5a4e941-dda4-49f6-bb84-e2fb220299df-1669072127e7153955-1",
+        "template--16624990257393__c5a4e941-dda4-49f6-bb84-e2fb220299df-1669072127e7153955-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -362,6 +407,7 @@
     "2c4f7be2-9189-4d2d-9e64-bb02e87b6d72",
     "3fb49d55-bb6f-4cee-b1f8-d393a45829d1",
     "e272bf3e-c388-41d8-bdf6-eb498aae8a66",
-    "d4da5c0f-7953-4074-a5d7-457c2778e3c0"
+    "d4da5c0f-7953-4074-a5d7-457c2778e3c0",
+    "c5a4e941-dda4-49f6-bb84-e2fb220299df"
   ]
 }
