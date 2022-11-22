@@ -141,7 +141,7 @@
         "template--16624978460913__70669a8f-33b4-4f7c-9cd8-be54836b823c-166862041987ac1595-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "Shop Now",
             "button_link_1": "",
             "button_style_secondary_1": false,
             "button_label_2": "Button label",
@@ -189,8 +189,8 @@
         "template--16624990257393__2c4f7be2-9189-4d2d-9e64-bb02e87b6d72-1669072127e7153955-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/armywestpoint"
           }
         }
       },
