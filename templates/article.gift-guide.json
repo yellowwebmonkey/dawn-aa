@@ -234,8 +234,8 @@
         "template--16624990257393__3fb49d55-bb6f-4cee-b1f8-d393a45829d1-1669072127e7153955-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/naval-academy-collection"
           }
         }
       },
