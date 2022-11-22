@@ -504,8 +504,8 @@
         "template--16624990257393__497a03ee-68d0-40c5-b814-70d5d6cadc5c-1669072127e7153955-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/2022-holiday-collection"
           }
         }
       },
