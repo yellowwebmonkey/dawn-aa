@@ -96,8 +96,8 @@
         "template--16624978460913__5376a5d4-33bf-45cf-9106-f8d1952e929a-16686204192f20989d-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/armywestpoint"
           }
         }
       },
