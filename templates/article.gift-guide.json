@@ -324,8 +324,8 @@
         "template--16624990257393__d4da5c0f-7953-4074-a5d7-457c2778e3c0-1669072127e7153955-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/sweat"
           }
         }
       },
