@@ -459,8 +459,8 @@
         "template--16624990257393__ba4cf10e-3057-431c-be83-31a564a82a72-1669072127e7153955-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/mens"
           }
         }
       },
