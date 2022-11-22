@@ -279,8 +279,8 @@
         "template--16624990257393__e272bf3e-c388-41d8-bdf6-eb498aae8a66-1669072127e7153955-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/air-force-academy-collection"
           }
         }
       },
