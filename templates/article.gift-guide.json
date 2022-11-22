@@ -369,8 +369,8 @@
         "template--16624990257393__c5a4e941-dda4-49f6-bb84-e2fb220299df-1669072127e7153955-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/shirts"
           }
         }
       },
