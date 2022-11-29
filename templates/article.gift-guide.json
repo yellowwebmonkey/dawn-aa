@@ -2,10 +2,10 @@
   "sections": {
     "main": {
       "type": "main-article",
-      "disabled": true,
       "blocks": {
         "featured_image": {
           "type": "featured_image",
+          "disabled": true,
           "settings": {
             "image_height": "adapt"
           }
@@ -19,7 +19,6 @@
         },
         "content": {
           "type": "content",
-          "disabled": true,
           "settings": {
           }
         }
@@ -34,6 +33,7 @@
     },
     "da63b0f4-caf4-4985-bc47-9fc3b85d9f59": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--16624978460913__da63b0f4-caf4-4985-bc47-9fc3b85d9f59-1668620419f84322f0-0": {
           "type": "heading",
