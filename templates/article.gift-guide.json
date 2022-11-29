@@ -120,54 +120,6 @@
         "padding_bottom": 36
       }
     },
-    "70669a8f-33b4-4f7c-9cd8-be54836b823c": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "template--16624978460913__70669a8f-33b4-4f7c-9cd8-be54836b823c-166862041987ac1595-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--16624978460913__70669a8f-33b4-4f7c-9cd8-be54836b823c-166862041987ac1595-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--16624978460913__70669a8f-33b4-4f7c-9cd8-be54836b823c-166862041987ac1595-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16624978460913__70669a8f-33b4-4f7c-9cd8-be54836b823c-166862041987ac1595-0",
-        "template--16624978460913__70669a8f-33b4-4f7c-9cd8-be54836b823c-166862041987ac1595-1",
-        "template--16624978460913__70669a8f-33b4-4f7c-9cd8-be54836b823c-166862041987ac1595-2"
-      ],
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "2c4f7be2-9189-4d2d-9e64-bb02e87b6d72": {
       "type": "image-with-text",
       "blocks": {
@@ -202,7 +154,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/2022GiftGuideArmyFootballFan_750x536_06f8b317-d1b9-4153-99cf-6b664ce92cab.jpg",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -578,7 +530,6 @@
     "main",
     "da63b0f4-caf4-4985-bc47-9fc3b85d9f59",
     "5376a5d4-33bf-45cf-9106-f8d1952e929a",
-    "70669a8f-33b4-4f7c-9cd8-be54836b823c",
     "2c4f7be2-9189-4d2d-9e64-bb02e87b6d72",
     "3fb49d55-bb6f-4cee-b1f8-d393a45829d1",
     "e272bf3e-c388-41d8-bdf6-eb498aae8a66",
