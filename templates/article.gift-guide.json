@@ -334,7 +334,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/2022GiftGuideAmericanWorker_750x536_040d3030-3495-4274-b2c5-b8bbdb645d67.jpg",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -379,7 +379,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/2022GiftGuideThePatriot_750x536_f141bd30-17d6-4316-94ec-77f5be5e4492.jpg",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -424,7 +424,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/2022GiftGuideHim_750x536_4c2d1c83-fd6b-4e0c-a0a6-83b064caef2f.jpg",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -469,7 +469,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/2022GiftGuideFestiveMom_750x536_3fbebc9e-1079-43b2-b073-fb277a766c54.jpg",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -514,7 +514,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/2022GiftGuideFestiveDad_750x536_58398ed1-f84a-414d-84a9-ce79e7004ddf.jpg",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
