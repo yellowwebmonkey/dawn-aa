@@ -199,7 +199,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/2022GiftGuideNavyGrad_750x536_43147183-c2ac-4b1f-b13d-65e3f990633d.jpg",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -244,7 +244,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/2022GiftGuideAirForceGrad_750x536_8582daac-c530-4434-9901-2e7e8ce8d6cb.jpg",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -289,7 +289,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/2022GiftGuideGymJunkie_750x536_da944922-836f-48b2-9b83-a25fa06ffc9e.jpg",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
