@@ -524,6 +524,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "455f5905-4a1d-4c95-9cb8-e3a6ec7823c5": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"article-template__back element-margin-top center\">\n    <a href=\"{{ blog.url }}\" class=\"article-template__link link animate-arrow\">\n      <span class=\"icon-wrap\">{% render 'icon-arrow' %}<\/span>\n      {{ 'blogs.article.back_to_blog' | t: title: blog.title }}\n    <\/a>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -538,6 +547,7 @@
     "24fce509-3289-471c-ac9c-e2c0f3640c62",
     "ba4cf10e-3057-431c-be83-31a564a82a72",
     "497a03ee-68d0-40c5-b814-70d5d6cadc5c",
-    "1272b74e-7618-44e4-b558-9100170e99b8"
+    "1272b74e-7618-44e4-b558-9100170e99b8",
+    "455f5905-4a1d-4c95-9cb8-e3a6ec7823c5"
   ]
 }
