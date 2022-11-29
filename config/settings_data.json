@@ -116,7 +116,7 @@
         "type": "ywm-promotion-bar",
         "settings": {
           "promo_enable": true,
-          "message": "Black Friday, Small Business Saturday, and Cyber Monday Site Wide Sale: 25% Off EVERYTHING",
+          "message": "Giving Tuesday: 25% of sales today will be donated to Team RWB",
           "link": "",
           "background_color": "#a61e31",
           "font_color": "#ffffff",
