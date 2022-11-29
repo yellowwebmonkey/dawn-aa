@@ -109,7 +109,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/2022GiftGuideArmyGrad_750x536_f73f3a4b-26bd-49c7-9684-a2b353b2e606.jpg",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
