@@ -457,7 +457,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/2022-holiday-collection"
+            "button_link": "shopify:\/\/collections\/the-festive-mom-gift-guide"
           }
         }
       },
@@ -502,7 +502,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/2022-holiday-collection"
+            "button_link": "shopify:\/\/collections\/the-festive-dad-gift-guide"
           }
         }
       },
