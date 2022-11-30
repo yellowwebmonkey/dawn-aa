@@ -6,17 +6,17 @@
         "adc99532-3d79-4f79-8899-248658ca9b62": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AmericanmadestaplesWEBbanner_2-min.jpg",
+            "image": "shopify:\/\/shop_images\/Holiday_2022_WEB_BANNER_1.png",
             "image_padding": false,
-            "img_link": "shopify:\/\/collections\/classics"
+            "img_link": "shopify:\/\/collections\/2022-holiday-collection"
           }
         },
         "bac0d0ed-522c-4445-af1a-a8faa4202a5f": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2armyfootballcollectionwebbanner-495px.jpg",
+            "image": "shopify:\/\/shop_images\/Shop-Sale-Section-Web-Banner_495px-min.jpg",
             "image_padding": false,
-            "img_link": "shopify:\/\/collections\/armywestpoint"
+            "img_link": "shopify:\/\/collections\/sample-sale-dec-2020"
           }
         },
         "163347003816bfd78e-0": {
@@ -41,8 +41,8 @@
         "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "163347064934a40b13": {
@@ -55,7 +55,7 @@
             "title": "Army West Point",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/armywestpoint"
+            "link": ""
           }
         },
         "163347064934a40b13-2": {
@@ -65,7 +65,7 @@
             "title": "Naval Academy",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/naval-academy-collection"
+            "link": ""
           }
         },
         "9f83d274-6b11-4965-ba7b-7edb5ebb638e": {
@@ -75,7 +75,7 @@
             "title": "Air Force Academy",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/air-force-academy-collection"
+            "link": ""
           }
         },
         "163347064934a40b13-0": {
@@ -85,7 +85,7 @@
             "title": "University of Alabama",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/university-of-alabama-collection"
+            "link": ""
           }
         }
       },
@@ -405,7 +405,7 @@
             "title": "",
             "text": "",
             "link_label": "",
-            "link": "https:\/\/indd.adobe.com\/view\/7f37774c-b266-48e7-8885-0ffaf78dbe3c"
+            "link": ""
           }
         },
         "165947681710e0eae3-1": {
@@ -415,7 +415,7 @@
             "title": "",
             "text": "",
             "link_label": "",
-            "link": "https:\/\/www.authenticallyamericanbrand.us\/pages\/getstarted"
+            "link": ""
           }
         },
         "165947681710e0eae3-2": {
@@ -425,7 +425,7 @@
             "title": "",
             "text": "",
             "link_label": "",
-            "link": "https:\/\/www.whereisyoursmade.us\/"
+            "link": ""
           }
         }
       },

@@ -116,7 +116,7 @@
         "type": "ywm-promotion-bar",
         "settings": {
           "promo_enable": true,
-          "message": "Giving Tuesday: 25% of sales today will be donated to Team RWB",
+          "message": "Free shipping on orders over $100",
           "link": "",
           "background_color": "#a61e31",
           "font_color": "#ffffff",
