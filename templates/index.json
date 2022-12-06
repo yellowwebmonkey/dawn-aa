@@ -14,9 +14,9 @@
         "bac0d0ed-522c-4445-af1a-a8faa4202a5f": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2armyfootballcollectionwebbanner-495px.jpg",
+            "image": "shopify:\/\/shop_images\/Holiday_WEB_BANNER_1_Orderdeadlines.jpg",
             "image_padding": false,
-            "img_link": "shopify:\/\/collections\/armywestpoint"
+            "img_link": "shopify:\/\/collections\/classics"
           }
         },
         "163347003816bfd78e-0": {
@@ -53,7 +53,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/FW_USMA_cube_logo_1.jpg",
             "title": "Army West Point",
-            "text": "",
+            "text": "<p><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -63,7 +63,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/FW_Naval_Ac_cube_logo.jpg",
             "title": "Naval Academy",
-            "text": "",
+            "text": "<p><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -73,7 +73,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/FW_Air_Force_cube_logo.jpg",
             "title": "Air Force Academy",
-            "text": "",
+            "text": "<p><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -83,7 +83,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/FW_Alabama_cube_logo.jpg",
             "title": "University of Alabama",
-            "text": "",
+            "text": "<p><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -227,7 +227,7 @@
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p><\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
@@ -373,7 +373,7 @@
       "settings": {
         "title": "Fall Embroidered Collection",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p><\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "fall-2022-pre-release",
@@ -403,7 +403,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/PP2.jpg",
             "title": "",
-            "text": "",
+            "text": "<p><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -413,7 +413,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled-23.jpg",
             "title": "",
-            "text": "",
+            "text": "<p><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -423,7 +423,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled-22.jpg",
             "title": "",
-            "text": "",
+            "text": "<p><\/p>",
             "link_label": "",
             "link": ""
           }
