@@ -9,7 +9,6 @@
     },
     "9b7405f7-02df-4b00-83a6-1cf3ef934688": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--16483329835249__9b7405f7-02df-4b00-83a6-1cf3ef934688-1666202554d6892fe1-0": {
           "type": "heading",
@@ -53,7 +52,6 @@
     },
     "49cf6fe2-e25a-46e9-ab9a-8e0e4b2ccadd": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-VFWXsu\"><\/div>",
         "color_scheme": "background-1",
