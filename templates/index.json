@@ -470,11 +470,11 @@
       "settings": {
         "title": "Featured On",
         "heading_size": "h2",
-        "image_width": "full",
+        "image_width": "half",
         "image_ratio": "square",
         "columns_desktop": 6,
         "column_alignment": "left",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
