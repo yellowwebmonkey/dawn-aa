@@ -373,7 +373,7 @@
       "settings": {
         "title": "Fall Embroidered Collection",
         "heading_size": "h2",
-        "description": "<p><\/p>",
+        "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "fall-2022-pre-release",
@@ -469,7 +469,7 @@
         "5e2052b0-2eb4-499f-a489-37152df66245"
       ],
       "settings": {
-        "title": "As Seen On",
+        "title": "Featured On",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "square",
