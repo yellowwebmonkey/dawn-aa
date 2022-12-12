@@ -55,8 +55,8 @@
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-VFWXsu\"><\/div>",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "132a056a-b999-46d0-946a-cbe76ba1c54f": {
