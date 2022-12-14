@@ -6,7 +6,7 @@
         "adc99532-3d79-4f79-8899-248658ca9b62": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WEBbannerHoliday13.jpg",
+            "image": "shopify:\/\/shop_images\/WEBbannerHoliday13-min.jpg",
             "image_padding": false,
             "img_link": "shopify:\/\/collections\/2022-holiday-collection"
           }
@@ -14,7 +14,7 @@
         "bac0d0ed-522c-4445-af1a-a8faa4202a5f": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Holiday_WEB_BANNER_1_Orderdeadlines.jpg",
+            "image": "shopify:\/\/shop_images\/Holiday_WEB_BANNER_1_Orderdeadlines-min.jpg",
             "image_padding": false,
             "img_link": "shopify:\/\/collections\/classics"
           }
