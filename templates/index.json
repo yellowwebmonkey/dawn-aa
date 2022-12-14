@@ -397,7 +397,6 @@
     },
     "36071838-5fdb-4a31-a269-9199f1ba1733": {
       "type": "ywm-video-with-text",
-      "disabled": true,
       "settings": {
         "video_url": "https:\/\/youtu.be\/WO_l11iMUnM",
         "layout": "left",
