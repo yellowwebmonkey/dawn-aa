@@ -116,7 +116,7 @@
         "type": "ywm-promotion-bar",
         "settings": {
           "promo_enable": true,
-          "message": "Free shipping on orders over $100",
+          "message": "Today only: FREE shipping on all orders!",
           "link": "",
           "background_color": "#a61e31",
           "font_color": "#ffffff",
