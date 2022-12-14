@@ -1,12 +1,167 @@
+<div class="page-width padding">
+    <div class="feature-row feature-row--{{ section.id }}">
+      {% capture image_layout %}
+        <div class="feature-row__item">
+          {% if section.settings.video_url != blank %}
+            {%- assign image = section.settings.image -%}
+            {%- assign max_width = 500 -%}
+            {%- assign max_height = 650 -%}
+          	{%- assign aspect_ratio = 1.25 -%}
+    
+            {%- render 'ywm-image-logic' with width: max_width, height: max_height -%}
+    
+            {%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+            <div class="lazyload__image-wrapper" style="max-width: {{ max_width }}px">
+              <div style="padding-top:0;">
+                {%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+             
+                
+                 {% if section.settings.video_url == blank %}
+            <iframe src="//www.youtube.com/embed/_9VUPq3SxOc?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
+          {% else %}
+            {% if section.settings.video_url.type == "youtube----old" %}
+              <iframe src="//www.youtube.com/embed/{{ section.settings.video_url.id }}?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
+            {% endif %}
+            {% if section.settings.video_url.type == "youtube" %}
+                <div class="youtube-player" data-id="{{ section.settings.video_url.id }}"></div>
+            {% endif %}
+            {% if section.settings.video_url.type == "vimeo" %}
+              <iframe src="//player.vimeo.com/video/{{ section.settings.video_url.id }}?byline=0&portrait=0&badge=0" width="850" height="480" frameborder="0" allowfullscreen></iframe>
+            {% endif %}
+          {% endif %}
+                
+                
+              </div>
+            </div>
+    
+            <noscript>
+              {{ image | img_url: '640x640' | img_tag: section.settings.image.alt }}
+            </noscript>
+          {% else %}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {% endif %}
+        </div>
+      {% endcapture %}
+    
+      <div class="feature-row">
+        {% if section.settings.layout == 'left' %}
+          {{ image_layout }}
+        {% endif %}
+    
+        <div class="feature-row__item feature-row__text feature-row__text--{{ section.settings.layout }}">
+          {% if section.settings.title != blank %}
+            <h2>{{ section.settings.title | escape }}</h2>
+          {% endif %}
+          {% if section.settings.text != blank %}
+            <div class="rte featured-row__subtext">{{ section.settings.text }}</div>
+          {% endif %}
+          {% if section.settings.button_label != blank and section.settings.button_link != blank %}
+            <a href="{{ section.settings.button_link }}" class="btn">
+              {{ section.settings.button_label | escape }}
+            </a>
+          {% endif %}
+        </div>
+    
+        {% if section.settings.layout == 'right' %}
+          {{ image_layout }}
+        {% endif %}
+      </div>
+    </div>
+</div>
+
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name":"Video with text",
+  "class": "section",
+  "settings": [
+    {
+      "type": "video_url",
+      "id": "video_url",
+      "label":"Video link",
+      "accept": [
+        "youtube",
+        "vimeo"
+      ]
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label":"Video alignment",
+      "default": "left",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label":"Heading",
+      "default": "Video with text"
+    },  
+    {
+      "type": "richtext",
+      "id": "text",
+      "label":"Text",
+      "default":"<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label":"Button label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label":"Button link"
+    }
+  ],
+  "presets": [
+    {
+      "name":"Video with text",
+      "category":"Image"
+    }
+  ]
+}
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
+<script>
+    /* Light YouTube Embeds by @labnol */
 
-{% javascript %}
-{% endjavascript %}
+    /* Web: http://labnol.org/?p=27941 */
+
+    document.addEventListener("DOMContentLoaded",
+        function() {
+            var div, n,
+                v = document.getElementsByClassName("youtube-player");
+            for (n = 0; n < v.length; n++) {
+                div = document.createElement("div");
+                div.setAttribute("data-id", v[n].dataset.id);
+                div.innerHTML = labnolThumb(v[n].dataset.id);
+                div.onclick = labnolIframe;
+                v[n].appendChild(div);
+            }
+        });
+
+    function labnolThumb(id) {
+        var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
+            play = '<div class="play"></div>';
+        return thumb.replace("ID", id) + play;
+    }
+
+    function labnolIframe() {
+        var iframe = document.createElement("iframe");
+        iframe.setAttribute("src", "https://www.youtube.com/embed/" + this.dataset.id + "?autoplay=1");
+        iframe.setAttribute("frameborder", "0");
+        iframe.setAttribute("allowfullscreen", "1");
+        this.parentNode.replaceChild(iframe, this);
+    }
+
+</script>
