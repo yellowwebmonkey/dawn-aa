@@ -8,6 +8,22 @@
 .tmenu_submenu_tab_position_top .tmenu_submenu_tab_control>li.tmenu_submenu_tab_active {background:#fff !important;}
 body.product .product__tax.caption, body.product form[id*="product-form-installment-template"] {display:none;}
 
+/* VIDEO WITH TEXT */
+.youtube-player {position: relative; padding-bottom: 56.23%; height: 0; overflow: hidden; max-width: 100%; background: #000; margin: 5px;}
+.youtube-player iframe, .youtube-player object, .youtube-player embed {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 100; background: transparent;}
+.youtube-player img {bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; border: none; height: auto; cursor: pointer; -webkit-transition: .4s all; -moz-transition: .4s all; transition: .4s all;}
+.youtube-player img:hover {-webkit-filter: brightness(75%);}
+.youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url("//i.imgur.com/TxzC70f.png") no-repeat; cursor: pointer;}
+
+.feature-row {display: -webkit-flex;display: -ms-flexbox;display: flex;width: 100%;-webkit-justify-content: space-between;-ms-justify-content: space-between;justify-content: space-between;-ms-flex-align: center;-webkit-align-items: center;-moz-align-items: center;-ms-align-items: center;-o-align-items: center;align-items: center;}
+.feature-row {display: -webkit-flex;display: -ms-flexbox;display: flex;width: 100%;-webkit-justify-content: space-between;-ms-justify-content: space-between;justify-content: space-between;-ms-flex-align: center;-webkit-align-items: center;-moz-align-items: center;-ms-align-items: center;-o-align-items: center;align-items: center;}
+.feature-row__item {-webkit-flex: 0 1 50%;-moz-flex: 0 1 50%;-ms-flex: 0 1 50%;flex: 0 1 50%;}
+.section .page-width.padding {margin:2rem auto;}
+
+@media screen and (max-width: 480px) {
+  .feature-row {-webkit-flex-wrap: wrap;-moz-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap;}
+  .feature-row__item {-webkit-flex: 1 1 100%;-moz-flex: 1 1 100%;-ms-flex: 1 1 100%;flex: 1 1 100%;max-width: 100%;}
+}
 
 /* CORE WEB VITALS */
 body {font-display:swap;}
