@@ -116,7 +116,7 @@
       "type": "apps",
       "blocks": {
         "25ede1de-18f8-412e-982b-384504a7ff03": {
-          "type": "shopify:\/\/apps\/growave-loyalty-wishlist-3\/blocks\/block.index.ReviewsSlider\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "type": "shopify:\/\/apps\/loyalty-program-reviews-3\/blocks\/block.index.ReviewsSlider\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
           "settings": {
           }
         }
@@ -549,6 +549,17 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "36071838-5fdb-4a31-a269-9199f1ba1733": {
+      "type": "ywm-video-with-text",
+      "settings": {
+        "video_url": "https:\/\/youtu.be\/WO_l11iMUnM",
+        "layout": "left",
+        "title": "Video with text",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
     }
   },
   "order": [
@@ -564,6 +575,7 @@
     "featured_products",
     "2822a7de-44b3-4b6d-8dc6-3ec009a66ea4",
     "1659476817bc34ffd2",
-    "1663961547e0e8bfdd"
+    "1663961547e0e8bfdd",
+    "36071838-5fdb-4a31-a269-9199f1ba1733"
   ]
 }
