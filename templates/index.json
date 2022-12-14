@@ -552,11 +552,12 @@
     },
     "36071838-5fdb-4a31-a269-9199f1ba1733": {
       "type": "ywm-video-with-text",
+      "disabled": true,
       "settings": {
         "video_url": "https:\/\/youtu.be\/WO_l11iMUnM",
         "layout": "left",
-        "title": "Video with text",
-        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "title": "",
+        "text": "<p>Authentically American Founder & CEO Dean Wegner visits Fox & Friends with investment parter and NASCAR legend Darrell Waltrip.<\/p>",
         "button_label": "",
         "button_link": ""
       }
