@@ -30,6 +30,7 @@
     },
     "0cd704df-5f28-4c0a-8e6e-1229bd26f2fd": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div data-round-up-via-pledgeling=\"7828317012209\"><\/div>",
         "color_scheme": "background-1",
