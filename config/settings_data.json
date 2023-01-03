@@ -116,7 +116,7 @@
         "type": "ywm-promotion-bar",
         "settings": {
           "promo_enable": true,
-          "message": "HOLIDAY DELIVERY: Dec 16th-last day for Ground shipping \/ Dec. 19th-last day for 2-Day \/ Dec. 21st-last day for Overnight.",
+          "message": "Free Shipping On All Orders Over $100",
           "link": "",
           "background_color": "#a61e31",
           "font_color": "#ffffff",
