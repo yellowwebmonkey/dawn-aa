@@ -371,7 +371,7 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Fall Embroidered Collection",
+        "title": "Embroidered Collection",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
