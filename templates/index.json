@@ -371,14 +371,14 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Embroidered Collection",
+        "title": "Spring Collection",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "fall-2022-pre-release",
-        "products_to_show": 4,
-        "columns_desktop": 4,
+        "collection": "spring-2023",
+        "products_to_show": 3,
+        "columns_desktop": 3,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
