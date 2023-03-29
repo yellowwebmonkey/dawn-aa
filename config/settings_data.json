@@ -42,7 +42,7 @@
           "announcement-bar-0"
         ],
         "custom_css": [
-          ".div {display:none;}"
+          ".div {display: none;}"
         ],
         "settings": {
         }
@@ -117,6 +117,9 @@
       },
       "ywm-promotion-bar": {
         "type": "ywm-promotion-bar",
+        "custom_css": [
+          ".div {height: 54;}"
+        ],
         "settings": {
           "promo_enable": true,
           "message": "Free Shipping On All Orders Over $100",
@@ -153,18 +156,6 @@
       },
       "6478312753674380289": {
         "type": "shopify:\/\/apps\/gempages-powerful-page-builder\/blocks\/embed-gp-script-head\/20b379d4-1b20-474c-a6ca-665c331919f3",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "16114465257489415219": {
-        "type": "shopify:\/\/apps\/product-filter-search\/blocks\/boost-pfs-style\/7fc998ae-a150-4367-bab8-505d8a4503f7",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "5038451100865107764": {
-        "type": "shopify:\/\/apps\/product-filter-search\/blocks\/boost-pfs\/7fc998ae-a150-4367-bab8-505d8a4503f7",
         "disabled": false,
         "settings": {
         }
