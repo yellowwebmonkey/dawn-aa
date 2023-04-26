@@ -73,17 +73,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/FW_Air_Force_cube_logo.jpg",
             "title": "Air Force Academy",
-            "text": "<p><\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "163347064934a40b13-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FW_Alabama_cube_logo.jpg",
-            "title": "University of Alabama",
-            "text": "<p><\/p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -92,15 +82,14 @@
       "block_order": [
         "163347064934a40b13-1",
         "163347064934a40b13-2",
-        "9f83d274-6b11-4965-ba7b-7edb5ebb638e",
-        "163347064934a40b13-0"
+        "9f83d274-6b11-4965-ba7b-7edb5ebb638e"
       ],
       "settings": {
         "title": "Shop our Colleges",
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "circle",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "View All Teams",
@@ -116,7 +105,7 @@
       "type": "apps",
       "blocks": {
         "25ede1de-18f8-412e-982b-384504a7ff03": {
-          "type": "shopify:\/\/apps\/loyalty-program-reviews-3\/blocks\/block.index.ReviewsSlider\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "type": "shopify:\/\/apps\/growave-loyalty-wishlist\/blocks\/block.index.ReviewsSlider\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
           "settings": {
           }
         }
