@@ -5,7 +5,7 @@
 
   var idme = `<div class="idme">
     <div class="idme-shopify">
-      <p class='idme-btn-affinity'>Hospital Employees, Medical Providers, Military, Nurses, and First Responders receive 15% off</p>
+      <p class='idme-btn-affinity'>Hospital Employees, Medical Providers, Military, Nurses, and First Responders receive a discount</p>
       <a class="idme-btn-unify" href="https://discountify.id.me/oauth/checkpoint/authentically-american-llc" >
         <img src="https://s3.amazonaws.com/idme/developer/idme-buttons/assets/img/verify.svg" alt="ID.me" style="height:42px"/>
       </a>
