@@ -6,17 +6,17 @@
         "adc99532-3d79-4f79-8899-248658ca9b62": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Spring_23_Collection_Banner_WEBSITE-997px.jpg",
+            "image": "shopify:\/\/shop_images\/4th_of_July_2023_Coming_Soon_WEB_Banner.png",
             "image_padding": false,
-            "img_link": "shopify:\/\/collections\/spring-2023"
+            "img_link": "shopify:\/\/pages\/newsletter-sign-up"
           }
         },
         "bac0d0ed-522c-4445-af1a-a8faa4202a5f": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WhereisYoursMadeTee_Web_Banner_4279b54a-f209-422a-940c-a3b9898f08af.jpg",
+            "image": "shopify:\/\/shop_images\/Spring_2023_Explore_Sweat_Tee_WEB_Banner.png",
             "image_padding": false,
-            "img_link": "shopify:\/\/collections\/graphic-tees"
+            "img_link": "shopify:\/\/products\/explore-sweat-tee"
           }
         },
         "163347003816bfd78e-0": {
