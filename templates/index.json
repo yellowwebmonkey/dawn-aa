@@ -77,30 +77,19 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "163347064934a40b13-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FW_Alabama_cube_logo.jpg",
-            "title": "University of Alabama",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "163347064934a40b13-1",
         "163347064934a40b13-2",
-        "9f83d274-6b11-4965-ba7b-7edb5ebb638e",
-        "163347064934a40b13-0"
+        "9f83d274-6b11-4965-ba7b-7edb5ebb638e"
       ],
       "settings": {
         "title": "Shop our Colleges",
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "circle",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "View All Teams",
