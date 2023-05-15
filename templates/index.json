@@ -6,17 +6,17 @@
         "adc99532-3d79-4f79-8899-248658ca9b62": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4th_of_July_Collection_Coming_Soon_Banner.png",
+            "image": "shopify:\/\/shop_images\/4thofJuly_WEB_banner.png",
             "image_padding": false,
-            "img_link": "shopify:\/\/pages\/newsletter-sign-up"
+            "img_link": "shopify:\/\/collections\/2023-4th-of-july"
           }
         },
         "bac0d0ed-522c-4445-af1a-a8faa4202a5f": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Spring_2023_Explore_Sweat_Tee_WEB_Banner.png",
+            "image": "shopify:\/\/shop_images\/4thofJuly_WEB_banner_2.png",
             "image_padding": false,
-            "img_link": "shopify:\/\/products\/explore-sweat-tee"
+            "img_link": "shopify:\/\/products\/defenders-of-the-free-tee"
           }
         },
         "163347003816bfd78e-0": {
