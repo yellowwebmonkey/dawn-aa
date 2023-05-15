@@ -45,6 +45,49 @@
         "padding_bottom": 36
       }
     },
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "4th of july collection",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "2023-4th-of-july",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1633380850c80f3d68": {
+      "type": "apps",
+      "blocks": {
+        "25ede1de-18f8-412e-982b-384504a7ff03": {
+          "type": "shopify:\/\/apps\/growave-loyalty-wishlist\/blocks\/block.index.ReviewsSlider\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "25ede1de-18f8-412e-982b-384504a7ff03"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "163347064934a40b13": {
       "type": "multicolumn",
       "blocks": {
@@ -111,22 +154,6 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "1633380850c80f3d68": {
-      "type": "apps",
-      "blocks": {
-        "25ede1de-18f8-412e-982b-384504a7ff03": {
-          "type": "shopify:\/\/apps\/growave-loyalty-wishlist\/blocks\/block.index.ReviewsSlider\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "25ede1de-18f8-412e-982b-384504a7ff03"
-      ],
-      "settings": {
-        "include_margins": true
       }
     },
     "image_banner": {
@@ -369,33 +396,6 @@
         "padding_bottom": 36
       }
     },
-    "featured_products": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Spring Collection",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "spring-2023",
-        "products_to_show": 3,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1659476817bc34ffd2": {
       "type": "multicolumn",
       "blocks": {
@@ -465,15 +465,15 @@
   },
   "order": [
     "163347003816bfd78e",
-    "163347064934a40b13",
+    "featured_products",
     "1633380850c80f3d68",
+    "163347064934a40b13",
     "image_banner",
     "rich_text",
     "featured_collection",
     "collage",
     "video",
     "multi_column",
-    "featured_products",
     "1659476817bc34ffd2",
     "1663961547e0e8bfdd"
   ]
