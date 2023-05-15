@@ -6,17 +6,17 @@
         "adc99532-3d79-4f79-8899-248658ca9b62": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Holiday_2022_WEB_BANNER_1.png",
+            "image": "shopify:\/\/shop_images\/4thofJuly_WEB_banner.png",
             "image_padding": false,
-            "img_link": "shopify:\/\/collections\/2022-holiday-collection"
+            "img_link": "shopify:\/\/collections\/2023-4th-of-july"
           }
         },
         "bac0d0ed-522c-4445-af1a-a8faa4202a5f": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Shop-Sale-Section-Web-Banner_495px-min.jpg",
+            "image": "shopify:\/\/shop_images\/4thofJuly_WEB_banner_2.png",
             "image_padding": false,
-            "img_link": "shopify:\/\/collections\/sample-sale-dec-2020"
+            "img_link": "shopify:\/\/products\/defenders-of-the-free-tee"
           }
         },
         "163347003816bfd78e-0": {
@@ -77,19 +77,30 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "163347064934a40b13-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FW_Alabama_cube_logo.jpg",
+            "title": "University of Alabama",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "163347064934a40b13-1",
         "163347064934a40b13-2",
-        "9f83d274-6b11-4965-ba7b-7edb5ebb638e"
+        "9f83d274-6b11-4965-ba7b-7edb5ebb638e",
+        "163347064934a40b13-0"
       ],
       "settings": {
         "title": "Shop our Colleges",
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "circle",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "View All Teams",
