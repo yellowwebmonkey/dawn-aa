@@ -272,6 +272,8 @@
  <!--end-boost-pfs-filter-css-->
 
  <script src="https://www.pledge.to/assets/shop/round-up.js" async></script>
+
+  {{ 'qikify-auto-hide.js' | asset_url | script_tag }}
 </head>
 
   <body class="gradient {{ request.page_type }}" id="{{ page_title | handleize }}">
