@@ -11,11 +11,11 @@
     "colors_background_2": "#eeeeee",
     "type_header_font": "montserrat_n4",
     "type_body_font": "montserrat_n4",
-    "page_width": 1600,
+    "page_width": 1200,
     "social_twitter_link": "https:\/\/twitter.com\/Auth_American",
     "social_facebook_link": "https:\/\/www.facebook.com\/AuthenticallyAmericanCo\/",
     "social_instagram_link": "https:\/\/www.instagram.com\/authentically_american\/",
-    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UC6jMed1mFeNLWaMXS5H6NBw",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UC6jMed1mFeNLWaMXS5H6NBw?view_as=subscriber",
     "favicon": "shopify:\/\/shop_images\/CIRCLE_FAVICON_for_website_256x256_crop_center_3153fc6f-c00e-489f-988e-fca14707cb5d.png",
     "currency_code_enabled": false,
     "checkout_logo_image": "shopify:\/\/shop_images\/200x100_2020_logo_with_NVBDC.jpg",
@@ -41,9 +41,6 @@
         "block_order": [
           "announcement-bar-0"
         ],
-        "custom_css": [
-
-        ],
         "settings": {
         }
       },
@@ -51,7 +48,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/Authentically_American_Stamp_Logo_300px.jpg",
+          "logo": "shopify:\/\/shop_images\/Authentically_American_Stamp_Logo_800x267_dfef7a9c-c94f-434d-a4e1-5bc4185bb64c.jpg",
           "logo_width": 230,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -92,7 +89,7 @@
           "2298a1f7-7acf-4677-9cee-e1c72410a8f7": {
             "type": "html",
             "settings": {
-              "subcode": "<div class=\"klaviyo-form-SuMRW6\"><\/div>"
+              "subcode": "<div class=\"klaviyo-form-SC3Spj\"><\/div>"
             }
           }
         },
@@ -117,17 +114,14 @@
       },
       "ywm-promotion-bar": {
         "type": "ywm-promotion-bar",
-        "custom_css": [
-          ".div {height: 54;}"
-        ],
         "settings": {
           "promo_enable": true,
-          "message": "Free Shipping on Orders $75 & More!",
+          "message": "Free Shipping on order $75+",
           "link": "",
           "background_color": "#a61e31",
           "font_color": "#ffffff",
-          "opacity": 95,
-          "animation": "slideRight",
+          "opacity": 85,
+          "animation": "no_animation",
           "css_class": ""
         }
       }
@@ -162,18 +156,6 @@
       },
       "855628211100114053": {
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "uppromote-affiliate-referral-customer-referral-3429-64c32457-930d-4cb9-9641-e24c0d9cf1f4": {
-        "type": "shopify:\/\/apps\/uppromote-affiliate-referral\/blocks\/customer-referral\/64c32457-930d-4cb9-9641-e24c0d9cf1f4",
-        "disabled": true,
-        "settings": {
-        }
-      },
-      "uppromote-affiliate-referral-message-bar-3429-64c32457-930d-4cb9-9641-e24c0d9cf1f4": {
-        "type": "shopify:\/\/apps\/uppromote-affiliate-referral\/blocks\/message-bar\/64c32457-930d-4cb9-9641-e24c0d9cf1f4",
         "disabled": true,
         "settings": {
         }
