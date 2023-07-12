@@ -89,7 +89,7 @@
           "2298a1f7-7acf-4677-9cee-e1c72410a8f7": {
             "type": "html",
             "settings": {
-              "subcode": "<div class=\"klaviyo-form-SC3Spj\"><\/div>"
+              "subcode": "<div class=\"klaviyo-form-SuMRW6\"><\/div>"
             }
           }
         },
@@ -116,7 +116,7 @@
         "type": "ywm-promotion-bar",
         "settings": {
           "promo_enable": true,
-          "message": "FREE SHIPPING: Orders $75 & over",
+          "message": "Free Shipping on order $100+",
           "link": "",
           "background_color": "#a61e31",
           "font_color": "#ffffff",
