@@ -63,8 +63,16 @@
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when '@app' -%}
-                {% assign myReview = product.metafields.ssw.review  %}
-              <div class="new-app">{% render block %}</div>
+                {% assign gwReviewRateData = product.metafields.ssw.review  %}
+                    {% if gwReviewRateData.type == 'json' %}
+                      {% assign gwReviewRateData = product.metafields.ssw[ssw_rate_data_key].value %}
+                    {% endif %}
+              {% if gwReviewRateData %}
+                  {% assign ssw_count_rate = gwReviewRateData.count | plus: 0 %}
+              {% endif %}
+            
+      
+              <div class="new-app-{{ ssw_count_rate }}">{% render block %}</div>
             {%- when 'text' -%}
               <p
                 class="product__text{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
