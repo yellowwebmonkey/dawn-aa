@@ -63,6 +63,7 @@
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when '@app' -%}
+                {% assign myReview = product.metafields.ssw.review  %}
               <div class="new-app">{% render block %}</div>
             {%- when 'text' -%}
               <p
