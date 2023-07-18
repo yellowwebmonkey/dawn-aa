@@ -63,17 +63,7 @@
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when '@app' -%}
-                {% assign gwReviewRateData = product.metafields.ssw['review']  %}
-                    {% if gwReviewRateData.type == 'json' and 1 == 2  %}
-                      {% assign gwReviewRateData = product.metafields.ssw[ssw_rate_data_key].value %}
-                    {% endif %}
-              {% if gwReviewRateData %}
-                  {% assign ssw_count_rate = gwReviewRateData.count | plus: 0 %}
-              {% endif %}
-            {% assign ReviewCount = product.metafields.ssw['review'].count  %}
-            
-      
-              <div class="new-app-{{ gwReviewRateData }}-{{ ssw_count_rate }}">{% render block %}</div>
+              {% render block %}
             {%- when 'text' -%}
               <p
                 class="product__text{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
@@ -751,10 +741,18 @@
             {%- if variant.sku != blank -%}
               "sku": {{ variant.sku | json }},
             {%- endif -%}
+            {%- if variant.barcode.size == 12 -%}
+              "gtin12": {{ variant.barcode }},
+            {%- endif -%}
+            {%- if variant.barcode.size == 13 -%}
+              "gtin13": {{ variant.barcode }},
+            {%- endif -%}
+            {%- if variant.barcode.size == 14 -%}
+              "gtin14": {{ variant.barcode }},
+            {%- endif -%}
             "availability" : "http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
             "price" : {{ variant.price | divided_by: 100.00 | json }},
             "priceCurrency" : {{ cart.currency.iso_code | json }},
-            "priceValidUntil" : "{% assign days = 30 | times: 86400 %}{{ "now" | date: "%s" | plus: days | date: "%Y-%m-%-d"| uri_encode | replace:'+','%20' }}",
             "url" : {{ request.origin | append: variant.url | json }}
           }{% unless forloop.last %},{% endunless %}
         {%- endfor -%}
