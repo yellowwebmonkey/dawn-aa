@@ -50,7 +50,7 @@
           "color_scheme": "background-1",
           "logo": "shopify:\/\/shop_images\/2023_AAM_Seal_NEW_with_White_Background-min.png",
           "logo_width": 80,
-          "logo_position": "top-left",
+          "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
