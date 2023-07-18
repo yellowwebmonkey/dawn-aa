@@ -48,7 +48,8 @@
       {% endif %}
     {% endif %}
 
-    {% assign review_listing = shop.metafields.ssw[customer_locale].value.review_listing | replace: "{{ ssw_avg_rate }}", ssw_avg_rate %} <div class="ssw-widget-avg-rate-listing ssw-stars ssw-stars-large {% if ssw_count_rate == 0 %}ssw-hide{% endif %}" data-rate="{{ ssw_avg_rate }}" tabindex="0" aria-label="{{ review_listing }}">{% assign ssw_j = ssw_avg_rate | floor %}
+    {% assign review_listing = shop.metafields.ssw[customer_locale].value.review_listing | replace: "{{ ssw_avg_rate }}", ssw_avg_rate %}
+    <div class="ssw-widget-avg-rate-listing ssw-stars ssw-stars-large {% if ssw_count_rate == 0 %}ssw-hide{% endif %}" data-rate="{{ ssw_avg_rate }}" tabindex="0" aria-label="{{ review_listing }}">{% assign ssw_j = ssw_avg_rate | floor %}
       {% for i in (1..ssw_j) %} <i class="ssw-icon-star"></i> {% endfor %}
       {% assign ssw_rate_last_star = 5 | minus:ssw_avg_rate %}
       {% assign ssw_y = ssw_rate_last_star | floor %}
