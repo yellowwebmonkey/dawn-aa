@@ -64,7 +64,7 @@
           {%- case block.type -%}
             {%- when '@app' -%}
                 {% assign gwReviewRateData = product.metafields.ssw.review  %}
-                    {% if gwReviewRateData.type == 'json' %}
+                    {% if gwReviewRateData.type == 'json' and 1 == 2  %}
                       {% assign gwReviewRateData = product.metafields.ssw[ssw_rate_data_key].value %}
                     {% endif %}
               {% if gwReviewRateData %}
