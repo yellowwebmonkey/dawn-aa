@@ -67,7 +67,7 @@
                 {%  for data in reviews.data %}
                 <span style="display:none">{{ data.count }}</span>
                   {% endfor %}
-              <div class="new-app-{{ ReviewCount }}" data="{{ reviews }}">{% render block %}</div>
+              <div class="new-app-{{ ReviewCount }}-{{ reviews | escape }}">{% render block %}</div>
             {%- when 'text' -%}
               <p
                 class="product__text{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
