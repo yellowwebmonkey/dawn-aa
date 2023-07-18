@@ -63,7 +63,7 @@
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when '@app' -%}
-                {% assign reviews = product.metafields.ssw.review  %}
+                {% assign reviews = product.metafields.ssw['review'].value  %}
                 {%  for data in reviews.data %}
                 <span style="display:none">{{ data.count }}</span>
                   {% endfor %}
