@@ -63,7 +63,7 @@
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when '@app' -%}
-              <div class="new-app">{% render block %}</div>
+              <div class="new-app {{ product.metafields.ssw.review }}">{% render block %}</div>
             {%- when 'text' -%}
               <p
                 class="product__text{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
