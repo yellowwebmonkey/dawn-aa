@@ -72,7 +72,7 @@
               {% endif %}
             
       
-              <div class="new-app-{{ ssw_count_rate }}">{% render block %}</div>
+              <div class="new-app-{{ gwReviewRateData }}-{{ ssw_count_rate }}">{% render block %}</div>
             {%- when 'text' -%}
               <p
                 class="product__text{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
