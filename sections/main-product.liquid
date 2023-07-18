@@ -63,7 +63,7 @@
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when '@app' -%}
-                {% assign ReviewCount = product.metafields.ssw['review'].count  %}
+                {% assign ReviewCount = product.metafields.ssw['review']  %}
 
               <div class="new-app-{{ ReviewCount }}">{% render block %}</div>
             {%- when 'text' -%}
