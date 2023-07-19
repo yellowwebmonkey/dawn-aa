@@ -14,14 +14,11 @@
 
 	<link rel="preload" href="https://www.google-analytics.com/analytics.js" as="script">
 	<link rel="preload" href="https://sdk.qikify.com/tmenu/async.js" as="script">
+    <link rel="preload" href="https://code.jquery.com/jquery-3.0.0.min.js" as="script" >
     
-    <link rel="preload" href="{{ 'ywm-custom.css' | asset_url }}" as="style" >
-    <link rel="preload" href="https://code.jquery.com/jquery-3.0.0.min.js" as="script" >    
     {% if request.page_type == 'product' %}
 		<link rel="preload" href="{{ product.featured_media | img_url }}" as="image">
-        <link rel="preload" href="{{ 'section-main-product.css' | asset_url }}" as="style" >  
     {% elsif request.page_type == 'index' %}    
-    	<link rel="preload" href="{{ 'collage.css' | asset_url }}" as="style" >
 	{% endif %}
     
     
@@ -246,9 +243,9 @@
     
   
      <!-- YELLOWWEBMONKEY --> 
-    {{ 'ywm-custom.css' | asset_url | stylesheet_tag }}
+    {{ 'ywm-custom.css' | asset_url | stylesheet_tag: preload: true }}
   {% if request.path contains 'faq' %}
-     {{ 'faq.css' | asset_url | stylesheet_tag }}
+     {{ 'faq.css' | asset_url | stylesheet_tag: preload: true }}
  {% endif %}
 
 <!-- Global site tag (gtag.js) - Google Ads: 10904120691 -->
