@@ -19,11 +19,9 @@
     <link rel="preload" href="https://code.jquery.com/jquery-3.0.0.min.js" as="script" >    
     {% if request.page_type == 'product' %}
 		<link rel="preload" href="{{ product.featured_media | img_url }}" as="image">
-        <link rel="preload" href="{{ 'base.css' | asset_url }}" as="style" >
         <link rel="preload" href="{{ 'section-main-product.css' | asset_url }}" as="style" >  
     {% elsif request.page_type == 'index' %}    
     	<link rel="preload" href="{{ 'collage.css' | asset_url }}" as="style" >
-        <link rel="preload" href="{{ 'base.css' | asset_url }}" as="style" >
 	{% endif %}
     
     
@@ -227,7 +225,7 @@
       }
     {% endstyle %}
 
-    {{ 'base.css' | asset_url | stylesheet_tag }}
+    {{ 'base.css' | asset_url | stylesheet_tag: preload: true  }}
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
