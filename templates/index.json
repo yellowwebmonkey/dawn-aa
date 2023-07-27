@@ -45,68 +45,28 @@
         "padding_bottom": 36
       }
     },
-    "163347064934a40b13": {
-      "type": "multicolumn",
-      "blocks": {
-        "163347064934a40b13-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FW_USMA_cube_logo_1.jpg",
-            "title": "Army West Point",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "163347064934a40b13-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FW_Naval_Ac_cube_logo.jpg",
-            "title": "Naval Academy",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "9f83d274-6b11-4965-ba7b-7edb5ebb638e": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FW_Air_Force_cube_logo.jpg",
-            "title": "Air Force Academy",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "163347064934a40b13-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FW_Alabama_cube_logo.jpg",
-            "title": "University of Alabama",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "163347064934a40b13-1",
-        "163347064934a40b13-2",
-        "9f83d274-6b11-4965-ba7b-7edb5ebb638e",
-        "163347064934a40b13-0"
-      ],
+    "featured_products": {
+      "type": "featured-collection",
       "settings": {
-        "title": "Shop our Colleges",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "circle",
+        "title": "4th of July Collection",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "2023-4th-of-july",
+        "products_to_show": 4,
         "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "View All Teams",
-        "button_link": "https:\/\/www.authenticallyamericanbrand.us\/collections\/collegiate-collection",
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "columns_mobile": "1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
@@ -219,6 +179,74 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
+      }
+    },
+    "163347064934a40b13": {
+      "type": "multicolumn",
+      "blocks": {
+        "163347064934a40b13-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FW_USMA_cube_logo_1.jpg",
+            "title": "Army West Point",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "163347064934a40b13-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FW_Naval_Ac_cube_logo.jpg",
+            "title": "Naval Academy",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "9f83d274-6b11-4965-ba7b-7edb5ebb638e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FW_Air_Force_cube_logo.jpg",
+            "title": "Air Force Academy",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "163347064934a40b13-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FW_Alabama_cube_logo.jpg",
+            "title": "University of Alabama",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "163347064934a40b13-1",
+        "163347064934a40b13-2",
+        "9f83d274-6b11-4965-ba7b-7edb5ebb638e",
+        "163347064934a40b13-0"
+      ],
+      "settings": {
+        "title": "Shop our Colleges",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "circle",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "View All Teams",
+        "button_link": "https:\/\/www.authenticallyamericanbrand.us\/collections\/collegiate-collection",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection": {
@@ -368,33 +396,6 @@
         "padding_bottom": 36
       }
     },
-    "featured_products": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Fall Embroidered Collection",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "fall-2022-pre-release",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1659476817bc34ffd2": {
       "type": "multicolumn",
       "blocks": {
@@ -464,15 +465,15 @@
   },
   "order": [
     "163347003816bfd78e",
-    "163347064934a40b13",
+    "featured_products",
     "1633380850c80f3d68",
     "image_banner",
     "rich_text",
+    "163347064934a40b13",
     "featured_collection",
     "collage",
     "video",
     "multi_column",
-    "featured_products",
     "1659476817bc34ffd2",
     "1663961547e0e8bfdd"
   ]
