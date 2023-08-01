@@ -116,7 +116,7 @@
         "type": "ywm-promotion-bar",
         "settings": {
           "promo_enable": true,
-          "message": "CHRISTMAS IN JULY: 50% OFF HOLIDAY COLLECTION",
+          "message": "Free Shipping: Orders $75+",
           "link": "",
           "background_color": "#a61e31",
           "font_color": "#ffffff",
