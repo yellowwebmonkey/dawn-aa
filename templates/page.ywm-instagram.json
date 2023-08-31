@@ -61,7 +61,6 @@
     },
     "132a056a-b999-46d0-946a-cbe76ba1c54f": {
       "type": "ywm-insta-gallery",
-      "disabled": true,
       "blocks": {
         "template--16483329835249__132a056a-b999-46d0-946a-cbe76ba1c54f-166620255548a0d5f7-0": {
           "type": "image_block",
@@ -136,6 +135,7 @@
         "242534c5-c921-4a27-8617-73b5ff147d7f",
         "c3ccbf28-7891-4ed4-a030-c865c4e4dc1f"
       ],
+      "disabled": true,
       "settings": {
         "title_enable": true,
         "title": "Recent Posts",
@@ -148,22 +148,12 @@
         "css_class": "",
         "captions_enable": false
       }
-    },
-    "3967326d-43dd-4757-880c-d5632dedb19d": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-97389b62-f44a-43a8-8e94-829769d1f394\"><\/div>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "main",
     "9b7405f7-02df-4b00-83a6-1cf3ef934688",
     "49cf6fe2-e25a-46e9-ab9a-8e0e4b2ccadd",
-    "132a056a-b999-46d0-946a-cbe76ba1c54f",
-    "3967326d-43dd-4757-880c-d5632dedb19d"
+    "132a056a-b999-46d0-946a-cbe76ba1c54f"
   ]
 }
