@@ -18,7 +18,10 @@
   }
 {%- endstyle -%}
 
-<div class="page-width page-width--narrow section-{{ section.id }}-padding">
+{% if page.template == "ywm-portfolio" %}
+<div class="page-width page-width section-{{ section.id }}-padding">
+{% else %}  
+<div class="page-width page-width--narrow section-{{ section.id }}-padding">{% endif %}
   <h1 class="main-page-title page-title h0">
     {{ page.title | escape }}
   </h1>
