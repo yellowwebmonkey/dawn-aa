@@ -21,6 +21,10 @@
     {% elsif request.page_type == 'index' %}    
 	{% endif %}
     
+    {% if request.path contains "portfilio" %}
+      <link rel="preload" href="https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/810b5893-de75-4f8e-b56f-606bcc5b1164/Authentically-American-Portfolio-compressed.pdf" as="script">
+      <link rel="preconnect" href="https://files.elfsightcdn.com/" crossorigin>
+    {%- endif -%}
     
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
