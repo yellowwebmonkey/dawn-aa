@@ -9,6 +9,7 @@
     },
     "1644873728080f13ca": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-97389b62-f44a-43a8-8e94-829769d1f394\"><\/div>",
         "color_scheme": "background-1",
