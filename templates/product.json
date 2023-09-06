@@ -143,9 +143,24 @@
         "padding_bottom": 12
       }
     },
+    "1693975705040967fe": {
+      "type": "apps",
+      "blocks": {
+        "80c39bb1-d5e2-49e0-afbd-5b29cb8f2ced": {
+          "type": "shopify:\/\/apps\/upsell-cross-sell-selleasy\/blocks\/lb-upsell-fbt-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "80c39bb1-d5e2-49e0-afbd-5b29cb8f2ced"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "image-with-text-0": {
           "type": "heading",
@@ -166,6 +181,7 @@
         "image-with-text-0",
         "image-with-text-1"
       ],
+      "disabled": true,
       "settings": {
         "height": "small",
         "desktop_image_width": "medium",
@@ -216,7 +232,6 @@
     },
     "multicolumn": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "column",
@@ -241,6 +256,7 @@
         "column-0",
         "column-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -278,6 +294,7 @@
   },
   "order": [
     "main",
+    "1693975705040967fe",
     "image-with-text",
     "16661213303cc84b01",
     "multicolumn",
