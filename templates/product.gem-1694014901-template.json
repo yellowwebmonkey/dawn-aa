@@ -1,0 +1,286 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "de245c8c-875b-4671-9c74-36f7eeb7f87c": {
+          "type": "shopify:\/\/apps\/growave-loyalty-wishlist\/blocks\/block.product.reviewAvgProfile\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+            "margin": "",
+            "textColor": "",
+            "fontSize": "",
+            "ratingIconColor": "",
+            "ratingIconSize": "",
+            "questionsIconColor": "",
+            "questionsIconSize": ""
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Why buy MADE IN THE USA",
+            "icon": "heart",
+            "content": "<p>In the mid-1990s, over 50% of the apparel in the US was made in the US.<strong> Today, it is tragically less than 3%. <\/strong>This US Patent Office approved officially registered trademark® is intended to be provocative and heighten awareness of the tragic history of the US Apparel Industry. We want our Clients and Consumers to make a conscious choice on ‘Country of Origin’ when they make a purchase decision.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Fit Guide",
+            "icon": "ruler",
+            "content": "",
+            "page": "sizechart"
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "icon": "truck",
+            "content": "<p><\/p><p><strong>DOMESTIC\/PO BOX\/US TERRITORIES<\/strong><\/p><p>Orders are generally shipped within 72 hours (Monday - Friday) via the US Postal Service. <\/p><p>Standard Delivery is 2 - 4 days. Flat rate shipping fee of $8.76 applies to orders up to $99.99.<\/p><p>Free shipping on orders of $100 or more, unless otherwise specified.<\/p><p>Orders at 5lbs or more will ship via UPS or Fedex.<\/p><p>We do deliver to Military APO\/DPO\/FPO address at normal rates, but delivery window is usually 10-15 business days!<\/p><p>We do not offer International shipping at this time unless for specified flash stores in North America. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "leather",
+            "content": "<p><\/p><p><strong>TEES + HOODIES<\/strong>: Please turn your tees inside out and wash in Cold water ONLY!  It is best to Dry them on the LOWEST heat setting your dryer has, even best on TUMBLE dry to keep wear\/tear + shrinkage to an absolute minimum!  NEVER iron on the printed graphics.<br\/><\/p><p><strong>POLOS<\/strong>: Please turn your polos inside out and wash in Cold water ONLY!  It is best to Dry them on the LOWEST heat setting your dryer has, even best on TUMBLE dry to keep wear and tear + shrinkage to an absolute minimum!  Never iron on the embroidered graphics.<br\/><br\/><strong>OUTERWEAR<\/strong>: Please turn your quarter zips and jackets inside out and wash in Cold water ONLY!  It is best to Dry them on the LOWEST heat setting your dryer has, even best on TUMBLE dry to keep wear and tear + shrinkage to an absolute minimum!  Never iron on the embroidered graphics.<br\/><\/p><p><strong>PERFORMANCE GEAR<\/strong>:  Please turn your Performance Gear inside out and wash in Cold water ONLY!  It is best to Dry them on the LOWEST heat setting your dryer has, even best on TUMBLE dry to keep wear and tear + shrinkage to an absolute minimum!  NEVER iron on the printed graphics.<\/p><p><\/p><p><strong>HATS<\/strong>: Our unstructured \"Dad\" hats can be washed in a washing machine but we suggest using a hat washing cage like you can find <a href=\"https:\/\/ballcapbuddy.com\/\"><strong>HERE<\/strong><\/a> and NEVER put a hat in the dryer!  Our structured hats CANNOT go into the washer, please do not attempt this - it will ruin the shape of the hat.  You can wash these hats with a hat washing brush and kit like you can find <a href=\"https:\/\/www.brandedbills.com\/products\/hat-cleaning-kit?variant=39571636420631&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&wickedsource=google&wickedid=EAIaIQobChMIyeHswIXL9wIVYm1vBB3jOgFQEAQYASABEgJqUvD_BwE&wickedid=347791182851&wv=3.1&utm_medium=ppc&utm_term=&utm_source=adwords&utm_campaign=&hsa_kw=&hsa_ad=347791182851&hsa_src=u&hsa_cam=1885400325&hsa_grp=71630068978&hsa_tgt=pla-293946777986&hsa_mt=&hsa_acc=4994002884&hsa_net=adwords&hsa_ver=3&gclid=EAIaIQobChMIyeHswIXL9wIVYm1vBB3jOgFQEAQYASABEgJqUvD_BwE\"><strong>HERE<\/strong><\/a><\/p><p><\/p><p><strong>SOCKS<\/strong>: Our socks can be washed in the washing machine on Cold and can go in the dryer on the lowest heat setting your dryer has.<\/p>",
+            "page": ""
+          }
+        },
+        "a6274e5f-4ea7-4bbf-927b-c0dd0424076b": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Email us about Product",
+            "icon": "chat_bubble",
+            "content": "",
+            "page": "email-us-about-product"
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "291ec9b4-d13f-4ae6-8601-5c2b81eca9d2": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<br\/>Questions? <span class=\"product-block email\"><a href=\"mailto:customerservice@authenticallyamerican.us?subject={{ product.title }}\" target=\"_blank\">Email us about this product<\/a><\/span><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "de245c8c-875b-4671-9c74-36f7eeb7f87c",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "collapsible-row-3",
+        "collapsible-row-2",
+        "collapsible-row-1",
+        "collapsible-row-0",
+        "a6274e5f-4ea7-4bbf-927b-c0dd0424076b",
+        "share",
+        "291ec9b4-d13f-4ae6-8601-5c2b81eca9d2"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "small",
+        "mobile_thumbnails": "show",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "blocks": {
+        "image-with-text-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "image-with-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "image-with-text-0",
+        "image-with-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16661213303cc84b01": {
+      "type": "apps",
+      "blocks": {
+        "d36bec0c-7186-4c38-b790-8616112ca701": {
+          "type": "shopify:\/\/apps\/growave-loyalty-wishlist\/blocks\/block.product.reviewWidget\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+            "containerMaxWidth": "",
+            "containerMarginTop": "",
+            "containerMarginBottom": "",
+            "containerSidePadding": "",
+            "containerLineHeight": "",
+            "containerFontFamily": "",
+            "containerLetterSpacing": "",
+            "buttonsColor": "",
+            "buttonsColorOnHover": "",
+            "buttonsBackgroundColor": "",
+            "buttonsBackgroundColorOnHover": "",
+            "buttonsBorder": "",
+            "buttonsBorderColorOnHover": "",
+            "buttonsBoxShadow": "",
+            "buttonsBoxShadowOnHover": "",
+            "buttonsPaddings": "",
+            "buttonsTextTransform": "",
+            "tabTriggerSelector": "",
+            "tabContentSelector": ""
+          }
+        }
+      },
+      "block_order": [
+        "d36bec0c-7186-4c38-b790-8616112ca701"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column-0": {
+          "type": "column",
+          "settings": {
+            "title": "Free Shipping",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Hassle-Free Exchanges",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column-0",
+        "column-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image-with-text",
+    "16661213303cc84b01",
+    "multicolumn",
+    "product-recommendations"
+  ]
+}
