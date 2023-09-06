@@ -18,7 +18,7 @@
     "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UC6jMed1mFeNLWaMXS5H6NBw?view_as=subscriber",
     "favicon": "shopify:\/\/shop_images\/CIRCLE_FAVICON_for_website_256x256_crop_center_3153fc6f-c00e-489f-988e-fca14707cb5d.png",
     "currency_code_enabled": false,
-    "checkout_logo_image": "shopify:\/\/shop_images\/square_logo.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/200x100_2020_logo_with_NVBDC.jpg",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
     "checkout_accent_color": "#04254f",
@@ -48,8 +48,8 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/square_logo.png",
-          "logo_width": 120,
+          "logo": "shopify:\/\/shop_images\/Authentically_American_Stamp_Logo_800x267_dfef7a9c-c94f-434d-a4e1-5bc4185bb64c.jpg",
+          "logo_width": 230,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
@@ -116,7 +116,7 @@
         "type": "ywm-promotion-bar",
         "settings": {
           "promo_enable": true,
-          "message": "Free Shipping: Orders $75+",
+          "message": "Free Shipping on order $100+",
           "link": "",
           "background_color": "#a61e31",
           "font_color": "#ffffff",
@@ -156,13 +156,7 @@
       },
       "855628211100114053": {
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "18228966181090706294": {
-        "type": "shopify:\/\/apps\/upsell-cross-sell-selleasy\/blocks\/app-embed\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }
