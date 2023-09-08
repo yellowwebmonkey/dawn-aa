@@ -56,7 +56,7 @@
           "show_line_separator": true,
           "enable_sticky_header": true,
           "mobile_logo_position": "center",
-          "margin_bottom": 0,
+          "margin_bottom": 16,
           "padding_top": 20,
           "padding_bottom": 20
         }
@@ -157,12 +157,6 @@
       "855628211100114053": {
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": true,
-        "settings": {
-        }
-      },
-      "18228966181090706294": {
-        "type": "shopify:\/\/apps\/upsell-cross-sell-selleasy\/blocks\/app-embed\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-        "disabled": false,
         "settings": {
         }
       }
